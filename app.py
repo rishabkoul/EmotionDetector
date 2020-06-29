@@ -20,7 +20,6 @@ def text_process(mess):
 
     # Now just remove any stopwords
     return [word for word in nopunc.split() if word.lower() not in stopwords.words('english')]
-#     return [word for word in nopunc.split()]
 
 
 filename = 'emotion.sav'
